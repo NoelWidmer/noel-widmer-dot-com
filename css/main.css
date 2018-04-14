@@ -1,26 +1,15 @@
 body {
     margin: 0;
-    background-color: #2a3143;
-}
-
-#content {
-    margin: 5em;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     color: #dfdfdf;
+    background-color: #2a3143;
 }
 
-#center_outher {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-}
-
-#center_inner {
-    margin: auto;
-    margin-left: -50%;
-    margin-top: -50%;
+#centered {
+    display: inline-block;
     text-align: center;
+    visibility: hidden;
 }
 
 #me {
@@ -32,18 +21,24 @@ body {
 }
 
 #text {
-    font-size: 2em;
     margin-top: 2em;
     margin-bottom: 0;
+    font-size: 2em;
 }
 
 #author {
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-left: 75%;
     font-size: 2em;
     font-weight: 700;
     text-align: left;
-    margin-top: 1em;
-    margin-left: 75%;
-    margin-bottom: 0;
+}
+
+#links {
+    position: fixed;
+    bottom: 3em;
+    left: 3em;
 }
 
 a {
