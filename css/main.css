@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background-color: #2a3143;
+}
+
+#content {
+    margin: 5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.15em;
+}
+
+a:link {
+    color: #dfdfdf;
+}
+
+a:visited {
+    color: #dfdfdf;
+}
+
+a:hover {
+    color: #c99e74;
+}
+
+a:active {
+    color: #c99e74;
+    text-decoration: none;
+}
